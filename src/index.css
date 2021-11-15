@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  border: none;
+  min-height: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card > .card-body {
+  height: 100%;
+  overflow: auto;
+  padding: 0.25rem;
+}
